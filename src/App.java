@@ -7,5 +7,8 @@ public class App {
         System.out.println("Java is designed to have as few implementation dependencies as possible.");
         System.out.println("Java is a general-purpose programming language intended to let application developers write once, run anywhere (WORA).");
         System.out.println("It's pretty cool!");
+        System.out.println("I'm going to ask you for your age.");
+        int age = System.in.read();
+        System.out.println("You are " + (char) age + " years old. (Assuming you entered your age)");
     }
 }
