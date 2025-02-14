@@ -1,4 +1,4 @@
 *.jar
 Manifest.txt
 .DS_Store
-app.py
+bin/app.py
